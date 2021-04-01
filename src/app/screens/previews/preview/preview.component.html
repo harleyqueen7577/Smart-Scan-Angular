@@ -1,0 +1,29 @@
+<main class="container">
+    <div class="monscan cadre offset-s6">
+      <img class="myScan" [src]="ecran.img">
+  </div>
+   
+    
+  <div action="" class="editSaveContainer">
+    <div class="row saveEditGap">
+      <a (click)='saveBack()' class="btn-floating btn-large waves-effect waves-light greenproject  offset-s12 saveBut "><i
+            class="material-icons">save</i> Save </a>
+    </div>
+    <div class="row">
+        <a (click)='cropperBack()' class="btn-floating btn-large waves-effect waves-light greenproject offset-s12 editBut "><i
+            class="material-icons">edit</i> Save</a>
+    </div>
+    
+    </div>
+    
+    
+  </main>
+
+  <footer class="page-footer footerWithoutGreen">
+    <div class="footer-copyright">
+      <div class="container">
+        <a (click)='returnBack()' class="btn-floating btn-large waves-effect waves-light greenproject offset-s6"><i
+            class="material-icons">keyboard_return</i></a>
+      </div>
+    </div>
+  </footer>

@@ -25,3 +25,33 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+git remote add origin https://github.com/harleyqueen7577/Smart-Scan-Angular.git
+
+# Components
+## app.module
+### shared
+
+bkack-button.component
+
+
+### screens.module
+
+welcome.component
+camera.component
+preview.component
+cropper.component
+filter.component
+
+#### shared
+navigation-button.component
+
+### files.module
+
+share-list.component
+format-list.component
+
+npm install angular@CLI
+npm install material-design-icons 
+npm install materialize-css

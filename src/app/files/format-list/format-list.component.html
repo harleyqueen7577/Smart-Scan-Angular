@@ -1,0 +1,51 @@
+<header>
+    <nav>
+      <div class="nav-wrapper greenproject ">
+        <a href="#" class="center black-text"> Save My Scan <span class="material-icons share">save</span></a>
+      </div>
+    </nav>
+  </header>
+  <main>
+      
+      <!-- <form action="#" class=checkboite> -->
+        <div >
+          <p>
+              <label class='couleur'>
+                  <input [(ngModel)]="file.fileShared"  type="checkbox" class="shareBox" />
+                  <span>Share</span>
+              </label>
+          </p>
+          <p>
+              <label class='couleur'>
+                  <input [(ngModel)]="file.fileRecord" type="checkbox" class="saveBox" />
+                  <span>Save to My Files</span>
+              </label>
+          </p>
+          <div style="color: red;">{{errorMessage}}</div>
+        </div>
+          <!-- </form> -->
+
+      <form action="" class="containerSave">
+          <h4 class='couleur'>Choose saving format</h4>
+
+          <div class="row">
+            <div (click)='text()' class="waves-effect waves-light btn col s4 offset-s4 btnsending pdfpdf">PDF</div>
+            <div type="submit"class="waves-effect waves-light btn col s4 offset-s4 btnsending word">Word Document</div>
+            <div type="submit"class="waves-effect waves-light btn col s4 offset-s4 btnsending faceb">Open Document</div>
+            <div type="submit"class="waves-effect waves-light btn col s4 offset-s4 btnsending instag">BlocNote</div>
+          </div>
+
+
+          
+      </form>
+
+  </main>
+
+  <footer class="page-footer footerWithoutGreen">
+    <div class="footer-copyright">
+      <div class="container">
+        <a (click)='returnBack()'class="btn-floating btn-large waves-effect waves-light greenproject offset-s6"><i
+            class="material-icons">keyboard_return</i></a>
+      </div>
+    </div>
+  </footer>
