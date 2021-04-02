@@ -28,6 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 git remote add origin https://github.com/harleyqueen7577/Smart-Scan-Angular.git
+git push origin master
 
 # Components
 ## app.module
